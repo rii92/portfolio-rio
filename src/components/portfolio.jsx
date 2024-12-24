@@ -273,9 +273,18 @@ const Portfolio = () => {
               transition={{ delay: 0.6 }}
             >
               {[
-                { Icon: Facebook, href: "https://web.facebook.com/riofebri.prasetia.3/?_rdc=1&_rdr" },
-                { Icon: Linkedin, href: "https://www.linkedin.com/in/riofebri-prasetia-8280821b1/" },
-                { Icon: Instagram, href: "https://www.instagram.com/riofebrip/" },
+                {
+                  Icon: Facebook,
+                  href: "https://web.facebook.com/riofebri.prasetia.3/?_rdc=1&_rdr",
+                },
+                {
+                  Icon: Linkedin,
+                  href: "https://www.linkedin.com/in/riofebri-prasetia-8280821b1/",
+                },
+                {
+                  Icon: Instagram,
+                  href: "https://www.instagram.com/riofebrip/",
+                },
                 { Icon: Github, href: "https://github.com/rii92" },
               ].map(({ Icon, href }, index) => (
                 <motion.a
@@ -521,31 +530,13 @@ const Portfolio = () => {
   const ProjectSection = () => {
     const projects = [
       {
-        title: "E-Learning Platform",
+        title: "Employee Attendance Visualization",
         description:
-          "A comprehensive platform for online education with live classes and course management.",
-        image: "/api/placeholder/600/400",
-        category: "Web Development",
-        tech: ["React", "Node.js", "MongoDB"],
-        link: "#",
-      },
-      {
-        title: "Healthcare App",
-        description:
-          "Mobile application for scheduling medical appointments and health tracking.",
-        image: "/api/placeholder/600/400",
-        category: "Mobile Development",
-        tech: ["Flutter", "Firebase"],
-        link: "#",
-      },
-      {
-        title: "E-Commerce Solution",
-        description:
-          "Full-featured e-commerce platform with payment integration and inventory management.",
-        image: "/api/placeholder/600/400",
-        category: "Web Development",
-        tech: ["Next.js", "Laravel", "MySQL"],
-        link: "#",
+          "An interactive web-based application for visualizing employee attendance data. This tool allows filtering by employee, year, and attendance type, providing insights into attendance patterns for better management.",
+        image: "/images/portfolio-1.png",
+        category: "Data Visualization",
+        tech: ["HTML", "CSS", "JavaScript", "Chart.js", "React.js"],
+        link: "https://rii92.github.io/bps-sanggau-kehadiran/",
       },
     ];
 
@@ -639,7 +630,7 @@ const Portfolio = () => {
         <Hero />
         <About />
         <Services />
-        {/* <ProjectSection /> */}
+        <ProjectSection />
       </div>
     </div>
   );
