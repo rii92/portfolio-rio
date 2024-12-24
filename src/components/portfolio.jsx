@@ -533,11 +533,19 @@ const Portfolio = () => {
         title: "Employee Attendance Visualization",
         description:
           "An interactive web-based application for visualizing employee attendance data. This tool allows filtering by employee, year, and attendance type, providing insights into attendance patterns for better management.",
-        image: "/images/portfolio-1.png",
+        image: "images/portfolio-1.png",
         category: "Data Visualization",
-        tech: ["HTML", "CSS", "JavaScript", "Chart.js", "React.js"],
+        tech: ["HTML", "CSS", "JavaScript", "Chart.js", "React.js", "Tailwind CSS"],
         link: "https://rii92.github.io/bps-sanggau-kehadiran/",
       },
+      {
+        title: "Population Data Visualization for Kabupaten Sanggau",
+        description: "An interactive dashboard showcasing population trends, gender distribution, growth rates, and additional demographic statistics for Kabupaten Sanggau. The platform provides insights through filters for start and end years, and visualizes data through charts and numerical summaries.",
+        image: "images/portfolio-2.png",
+        category: "Data Analytics",
+        tech: ["React.js", "Chart.js", "Tailwind CSS", "API Integration"],
+        link: "https://rii92.github.io/bps-sanggau/"
+      }
     ];
 
     return (
